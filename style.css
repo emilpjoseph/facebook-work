@@ -1,0 +1,97 @@
+body
+{
+
+	margin: 0px; 
+}
+
+.headerDiv 
+{
+	
+	background-color: #3a5795;
+	
+}
+.headerMarginDiv
+{
+    margin: 0 100px auto;
+	padding: 5px;
+}
+.headerLogoDiv
+{
+	color: white;
+	float: left;
+	width: 40%
+	
+}
+.headerLoginDiv
+{
+
+	width: 40%;
+    margin-left: 60%;
+}
+.containerDiv
+{
+		background-color: #EDF0F5;
+	    height: 70%;
+}
+.containerMarginDiv
+{
+	margin: 0px 100 auto;
+    height: 100%
+}
+.containerUpdateDiv
+{
+	height: 80%;
+    width: 45%;
+	float: left;
+}
+.containerSignUpDiv
+{
+	    margin-left: 60%;
+		padding-top: 20px;
+}
+tr
+{
+	color: white;
+}
+.footerDiv
+{
+	background-color: #FFFFFF;
+	    height: 150px;
+     clear: both;/* in case something is floating above */
+}
+
+.genderDiv
+{
+	display: inline-block;
+}
+
+.buttonSize
+{
+	color: white;
+	height:40px;
+    width:170px;
+	background-color: #4CAF50;
+	
+}
+.footerMarginDiv
+{
+	margin: 0 100px auto;
+	padding: 5px;
+}
+.footerLowerDiv
+{
+	display: inline-block;
+}
+
+
+/* make changes only to the span tag under containerSignUpDiv class
+
+ 
+.containerSignUpDiv span */
+
+.signUpFontSize
+{
+	padding-top: 30px;
+	font-size: 40;
+	font-weight: bold; 
+}
