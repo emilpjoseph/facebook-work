@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-   	<title>User Registration </title>
+   	<title>Facebook</title>
      <link rel="stylesheet" href="style.css" type="text/css" />
+	 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 	</head>
 <body>
 	<div class = "headerDiv">
@@ -50,24 +51,24 @@
 	<div class = "containerDiv">
 		<div class = "containerMarginDiv">
 			<div class = "containerUpdateDiv">
-				<h1>connect with friends and world around you in facebook.
-				<h2>See photos and updates from friends in News Feed.</h2>
-				<h2>Share what's new in your life on your Timeline.</h2>
-				<h2>Find more of what you're looking for with Facebook Search.</h2>
+			
+				<h1 class = "update1">connect with friends and world around you in facebook.</h1>
+				<h2 class = "update2">See photos and updates from friends in News Feed.</h2>
+				<h2 class = "update2">Share what's new in your life on your Timeline.</h2>
+				<h2 class = "update2">Find more of what you're looking for with Facebook Search.</h2>
 			</div>
 			<div class = "containerSignUpDiv">
 				<span class = "signUpFontSize">Sign Up</span>
 				<h2>Its Free and always will be</h2>
 				<form action = "registeruser.php" method = "POST" id="signup-form">
-					<label>
-						<input type = "text" id="firstname" name = "firstname" placeholder = "First Name">
-						<input type = "text" name = "lastname" placeholder = "Last Name"><br><br>
-						<input type = "email" name = "email" placeholder = "Email" size="45"><br><br>
-						<input type = "tel" id="mobile" name = "mobile" placeholder = "Mobile Number" size="45"><br><br>
-						<input type = "text" id="repeatmobile" name = "repeatemailormobile" placeholder = "Re-enter Email or Mobile Number" size="45"><br><br>
-						<input type = "password" name = "password" placeholder = "New Password" size="45"><br><br>
+		
+						<input class = "inputBoxHeight inlineBox" type = "text" id="firstname" name = "firstname" placeholder = "First Name">
+						<input class = "inputBoxHeight inlineBox" type = "text" name = "lastname" placeholder = "Last Name">
+						<input class = "inputBoxHeight" type = "email" name = "email" placeholder = "Email">
+						<input class = "inputBoxHeight" type = "tel" id="mobile" name = "mobile" placeholder = "Mobile Number">
+						<input class = "inputBoxHeight" type = "text" id="repeatmobile" name = "repeatemailormobile" placeholder = "Re-enter Email or Mobile Number">
+						<input class = "inputBoxHeight" type = "password" name = "password" placeholder = "New Password">
 					
-					</label>
 					<div class = "">
 						<div class = "genderDivA genderDiv">
 							<input type="radio" name="gender" value="male"> Male<br>
@@ -80,6 +81,8 @@
 					<button class = "buttonSize" type = "submit">Submit</button>
 			
 				</form>
+			</div>
+			<div class = "floatFixed">
 			</div>
 		</div>
 	</div>

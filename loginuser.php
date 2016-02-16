@@ -26,10 +26,10 @@ $result = $conn->query($sql);
 //var_dump($vsriable);
 //echo $vsriable;
 //print_r($vsriable);
-print_r($result);
+//print_r($result);
 if(!$result) {
       die('DB Error');
    }
    
-   echo $result->num_rows;
-   
+ //  echo $result->num_rows;
+  ?>

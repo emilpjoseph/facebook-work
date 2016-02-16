@@ -12,7 +12,7 @@ body
 }
 .headerMarginDiv
 {
-    margin: 0 100px auto;
+    margin: 0 154px auto;
 	padding: 5px;
 }
 .headerLogoDiv
@@ -30,24 +30,25 @@ body
 }
 .containerDiv
 {
+	    margin: 4% 12%;
 		background-color: #EDF0F5;
-	    height: 70%;
+	   width: 100%;
 }
 .containerMarginDiv
 {
-	margin: 0px 100 auto;
-    height: 100%
+	float: left;
+	width: 80%;
+    margin: 0 auto;
 }
 .containerUpdateDiv
 {
-	height: 80%;
     width: 45%;
 	float: left;
 }
 .containerSignUpDiv
 {
-	    margin-left: 60%;
-		padding-top: 20px;
+	    margin-left: 56%;
+		/*padding-top: 20px;*/
 }
 tr
 {
@@ -62,8 +63,14 @@ tr
 
 .genderDiv
 {
+	margin: 3%;
 	display: inline-block;
 }
+.floatFixed
+{
+	clear:  both;
+}
+
 
 .buttonSize
 {
@@ -91,7 +98,27 @@ tr
 
 .signUpFontSize
 {
-	padding-top: 30px;
-	font-size: 40;
-	font-weight: bold; 
+	
+	font-size: 45px;
+	font-weight: bold;
+}
+.inputBoxHeight
+{
+	padding: 10px;
+	height: 15px;
+	font-size: 18px;
+	width: 94%;
+	margin-top: 4%;
+}
+.inlineBox
+{
+	width: 43%;
+	margin-right: 7px;
+	display: inline-block;
+}
+.update1
+{
+	    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !;
 }
