@@ -9,11 +9,11 @@
 	<div class = "headerDiv">
 		<div class = "headerMarginDiv">
 			<div class = "headerLogoDiv">
-				<img src = "facebook_logo.png" height="65px" width="200px">
+				<h1>Facebook</h1>
 			</div>
 			<div class = "headerLoginDiv">
 			<form action = "loginuser.php" method = "POST">
-				<table class = "updatetable">
+				<table>
 				<tr>
 					<td>
 						<label for = "email">Email</label>
@@ -52,45 +52,15 @@
 		<div class = "containerMarginDiv">
 			<div class = "containerUpdateDiv">
 			
-			<h1 class = "update1">Connect with friends and world around you in facebook.</h1>
-				<table>
-				
-				<tr class = "intendRow">
-					<td>
-						<img src = "updatepic1.png" height="42" width="42">
-					</td>
-					<td class= "intend">
-						<h2 class = "update2">See photos and updates from friends in News Feed.</h2>
-					</td>
-				</tr>
-				<tr class = "intendRow">
-					<td>
-						<img src = "updatepic2.png" height="42" width="42">
-					</td>
-					<td class = "intend">
-						<h2 class = "update2">Share what's new in your life on your Timeline.</h2>
-					</td>
-				</tr>
-				<tr class = "intendRow">
-					<td>
-						
-						<img src = "updatepic3.png" height="42" width="42">
-					</td>
-					<td class ="intend">
-						<h2 class = "update2">Find more of what you're looking for with Facebook Search.</h2>
-					</td>
-					
-				</tr>
-				
-				</table>
-				
+				<h1 class = "update1">connect with friends and world around you in facebook.</h1>
+				<h2 class = "update2">See photos and updates from friends in News Feed.</h2>
+				<h2 class = "update2">Share what's new in your life on your Timeline.</h2>
+				<h2 class = "update2">Find more of what you're looking for with Facebook Search.</h2>
 			</div>
 			<div class = "containerSignUpDiv">
 				<span class = "signUpFontSize">Sign Up</span>
 				<h2>Its Free and always will be</h2>
 				<form action = "registeruser.php" method = "POST" id="signup-form">
-				
-				
 		
 						<input class = "inputBoxHeight inlineBox" type = "text" id="firstname" name = "firstname" placeholder = "First Name">
 						<input class = "inputBoxHeight inlineBox" type = "text" name = "lastname" placeholder = "Last Name">
@@ -114,8 +84,6 @@
 			</div>
 			<div class = "floatFixed">
 			</div>
-		</div>
-		<div class = "clearBoth">
 		</div>
 	</div>
 	<div class = "footerDiv">

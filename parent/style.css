@@ -12,54 +12,45 @@ body
 }
 .headerMarginDiv
 {
-    margin: 0 121px auto;
-	padding: 10px;
+    margin: 0 154px auto;
+	padding: 5px;
 }
 .headerLogoDiv
 {
-	height: 65px;
-    width: 200px;
+	color: white;
 	float: left;
-	
+	width: 40%
 	
 }
 .headerLoginDiv
 {
 
-
-	width: 42%;
+	width: 40%;
     margin-left: 60%;
 }
 .containerDiv
 {
-	margin: 0 auto;
-	padding: 1%;
+	    margin: 4% 12%;
 		background-color: #EDF0F5;
 	   width: 100%;
 }
 .containerMarginDiv
 {
-	
+	float: left;
 	width: 80%;
     margin: 0 auto;
 }
 .containerUpdateDiv
 {
-    width: 40%;
+    width: 45%;
 	float: left;
 }
 .containerSignUpDiv
 {
-		font-family: helvetica, arial, sans-serif;
-		padding-left: 14%;
-		width: 40%;
-		float: left;
+	    margin-left: 56%;
+		/*padding-top: 20px;*/
 }
-.clearBoth
-{
-	clear = both;
-}
-.updatetable
+tr
 {
 	color: white;
 }
@@ -118,42 +109,16 @@ body
 	font-size: 18px;
 	width: 94%;
 	margin-top: 4%;
-	border-radius: 6px;
-}
-button
-{
-    border-color: #2f477a #29447e #1a356e;
-	background-color:#5b74a8;
-	color: white;
 }
 .inlineBox
 {
-	width: 184px;
-	margin-right: 5px;
+	width: 43%;
+	margin-right: 7px;
 	display: inline-block;
 }
 .update1
 {
-	
 	    font-size: 28px;
     line-height: 36px;
     font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !;
-}
-.updatetable
-{
-	font-color: black;
-}
-
-
-
-.intend
-{
-	font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !;
-	padding-left: 5%;
-	font-size: 14px;
-}
-
-.intendRow
-{
-	padding-top: 13%;
 }
